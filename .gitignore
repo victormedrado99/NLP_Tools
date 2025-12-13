@@ -1,0 +1,78 @@
+# Ignora arquivos de cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignora ambientes virtuais
+venv/
+env/
+.venv/
+.env/
+
+# Ignora arquivos de configuração do editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignora arquivos de log
+*.log   
+
+# Ignora arquivos de banco de dados SQLite
+*.sqlite3
+
+
+# Ignora arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignora arquivos de teste
+tests/__pycache__/
+tests/*.pyc
+
+# Ignora arquivos temporários
+*.tmp
+*.temp
+~*
+
+# Ignora arquivos de build
+build/
+dist/
+*.egg-info/
+
+# Ignora arquivos específicos do sistema operacional
+ehthumbs.db
+Desktop.ini
+
+# Ignora arquivos de cobertura de teste
+.coverage
+htmlcov/
+.nox/
+.pytest_cache/
+
+# Ignora arquivos de configuração do pytest
+.pytest_cache/
+
+# Ignora arquivos de configuração do mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ignora arquivos de configuração do pipenv
+Pipfile.lock    
+
+# Ignora arquivos de ambiente .env
+.env
+.env.local
+.env.*.local
+
+# Ignora arquivos de configuração do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignora arquivos de configuração do Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+
